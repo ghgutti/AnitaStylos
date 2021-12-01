@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnitaStyles</title>
+    <style>
+        img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; 
+    }
+    </style>
+   
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="js/schedule.js" > </script>
+</head>
+<body>
+    <header>
+        <header class="header">
+            <div class="container logo-nav-container">
+                
+                <a href="images/logo.png" class="logo">Logo</a>
+                
+ 
+                <nav class="Navigation">
+                    
+                    <ul>
+                        <li><a href="index.html">Main</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="about_us.html">Contactenos</a></li>
+                        
+                        
+                    </ul>
+                    
+                </nav>
+ 
+            </div>
+    </header>
+    <main class="main">
+        <div class="container">
+
+            <h1>ANITASTYLES " The best hair dresser ever"</h1>
+
+        </div>
+
+        <div class="container" >
+
+            <img src="images/men.jpeg" width="2258" height="1205" alt="Anita">
+            
+        </div>
+
+        <div class="schedule">
+            <form method="post"><br><br>
+
+                <h3>Reservar</h3>
+                <label for="name">Ingrese su nombre:</label><br>
+                <input class="txt" type="name" name="name" id="name"><br><br>
+
+                <label for="datetime">Fecha - Hora:</label><br>
+                <input class="datetime" type="datetime-local" name="datetime" id="datetime"><br><br>
+
+                <label for="servicio">Servicio que desea: </label><br><br>
+                        <select class="slc" name="servicio" id="servicio">
+                            <option value="1">Corte</option>
+                            <option value="2">Manicure</option>
+                            <option value="3">Peinado</option>
+                            <option value="4">Rizzos</option>
+                            <option value="5">Barba</option>
+                        </select>
+                        <br><br>
+
+                <input class="sub" onclick="agendar()" type="button" value="Enviar"><br><br>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container"></div>
+       
+    </footer>
+</body>
+</html>

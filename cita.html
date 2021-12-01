@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnitaStyles</title>
+    <style>
+        img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; 
+    }
+    </style>
+   
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="js/login.js" > </script>
+</head>
+<body>
+    <header>
+        <header class="header">
+            <div class="container logo-nav-container">
+                
+                <a href="images/logo.png" class="logo">Logo</a>
+                
+ 
+                <nav class="Navigation">
+                    
+                    <ul>
+                        <li><a href="index.html">Main</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="about_us.html">Contactenos</a></li>
+                    </ul>
+                    
+                </nav>
+ 
+            </div>
+    </header>
+    <main class="main">
+        <div class="container">
+
+            <h1>ANITASTYLES " The best hair dresser ever"</h1>
+
+        </div>
+
+        <div class="container" >
+
+            <img src="images/maquillaje.jpeg" width="2258" height="1205" alt="Anita">
+            
+        </div>
+
+        <div class="login">
+
+            <form method="post"><br><br>
+
+                <h3>Sign in as user</h3>
+                <label for="name">User name</label><br>
+                <input class="txt" type="text" name="name" id="name" maxlength="80"><br><br>
+        
+                <label for="password">password</label><br>
+                <input class="txt" type="password" name="password" id="password" maxlength="10"><br><br>
+        
+                <label for="checkbox">Remember this account</label>
+                <input class="chk" type="checkbox" name="checkbox" id="checkbox"><br><br>
+        
+                <input class="sub" onclick="validar()" type="button" value="sign in"><br><br>
+        
+    
+    
+                <h4>No member yet?</h4>
+                <a class="reg" href="register.html">Register</a>
+    
+    
+            </form>
+         </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container"></div>
+       
+    </footer>
+</body>
+</html>
